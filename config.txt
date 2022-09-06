@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxb6aaf6c1c3adab4c",
+# 公众号appSecret
+"app_secret": "c8c74f8742a15b376dba9425e60634aa",
+# 模板消息id
+"template_id": "uGvtf9AD8fmeHlj7IR9oIfRkdUkWZ2nI9qDZ3cRvbM8",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oJvhc5jTytGf_nLxSt85ibMqF_7w"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "37b41e3f1d2d4361b106dbbaeb6985c9",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "上海",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "季总", "birthday": "2000-03-20"},
+# 生日2
+"birthday2": {"name": "许总", "birthday": "2000-05-24"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2022-02-13",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "今天也很爱你！",
+# 金句英文
+"note_en": "We never got past the first flush of infatuation."
+}
